@@ -314,7 +314,6 @@ select.form-control:not([size]):not([multiple]) {
   .selectgroup-button-icon i {
     font-size: 14px; }
 
-.selectgroup-input:focus + .selectgroup-button,
 .selectgroup-input:checked + .selectgroup-button {
   background-color: #6777ef;
   color: #fff;
@@ -725,7 +724,7 @@ select.form-control:not([size]):not([multiple]) {
   .card.card-primary {
     border-top: 2px solid #6777ef; }
   .card.card-secondary {
-    border-top: 2px solid #34395e; }
+    border-top: 2px solid #cdd3d8; }
   .card.card-success {
     border-top: 2px solid #47c363; }
   .card.card-danger {
@@ -1093,7 +1092,7 @@ table tr:hover .table-links {
   .badge.badge-primary {
     background-color: #6777ef; }
   .badge.badge-secondary {
-    background-color: #34395e; }
+    background-color: #cdd3d8; }
   .badge.badge-success {
     background-color: #47c363; }
   .badge.badge-info {
@@ -1913,6 +1912,18 @@ a.dropdown-item {
 
 .tab-content > .tab-pane {
   line-height: 28px; }
+
+ul.nav-tabs li.nav-item a.nav-link i {
+  color: #6777ef; }
+
+ul.nav-tabs li.nav-item a.nav-link span {
+  display: block;
+  line-height: 60%; }
+  ul.nav-tabs li.nav-item a.nav-link span i {
+    font-size: 16px !important; }
+
+ul.nav-tabs li.nav-item a.nav-link.active i {
+  color: #191d21; }
 
 /* 3.21 Progress Bar */
 .progress-bar {
